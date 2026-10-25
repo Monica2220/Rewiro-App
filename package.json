@@ -1,0 +1,27 @@
+{
+  "name": "rewiro",
+  "version": "1.0.0",
+  "description": "Rewiro · Hackea tu cerebro. App para dejar de fumar: cronómetro, botón SOS para antojos, ahorro y premios.",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Mónica",
+  "scripts": {
+    "serve": "npx --yes serve www",
+    "ios:add": "npx cap add ios",
+    "ios:assets": "npx capacitor-assets generate --ios",
+    "ios:sync": "npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/preferences": "^8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3"
+  }
+}

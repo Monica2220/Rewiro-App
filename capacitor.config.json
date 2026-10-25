@@ -1,0 +1,10 @@
+{
+  "appId": "mx.moni.rewiro",
+  "appName": "Rewiro",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#EDF2F4",
+    "limitsNavigationsToAppBoundDomains": false
+  }
+}

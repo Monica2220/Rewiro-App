@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+
+# Xcode
+ios/App/Pods/
+ios/DerivedData/
+ios/App/build/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM.zip
